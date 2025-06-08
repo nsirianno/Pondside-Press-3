@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #006d77;
+  color: white;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.flyer,
+.gallery {
+  padding: 30px 20px;
+}
+
+.flyer-image {
+  max-width: 90%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.gallery-container img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contact {
+  padding: 30px;
+}
+
+.contact-button {
+  background-color: #006d77;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #004f56;
+}
